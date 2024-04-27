@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <header> HTML FORM </header>
+  <form action="./result.html" method="get">
+
+    <div>
+      <label for="email"> Email </label>
+      <input type="email" name="email" id="email" placeholder="@gmail.com" required/>
+    </div>
+    <br>
+
+    <div>
+      <label for="username"> Username </label>
+      <input type="text" name="username" id="username" placeholder="Lexx"/>
+    </div>
+    <br>
+
+    <div>
+      <label for="password"> Password </label>
+      <input type="text" name="password" id="password"/>
+    </div>
+    <br>
+
+    <div>
+      <label for="age"> Age </label>
+      <input type="number" name="age" id="age" min="18" max="35" />
+    </div>
+    <br>
+
+    <div>
+      <label for="dob"> Date of Birth </label>
+      <input type="date" name="dob" id="dob"/>
+    </div>
+    <br>
+
+    <div>
+      <label for="time"> Time </label>
+      <input type="time" name="time" id="time"/>
+    </div>
+    <br>
+
+    <div>
+      <label> Tasks </label>
+      <input type="checkbox" name="Clean" />
+      <input type="checkbox" name="Code" />
+      <input type="checkbox" name="Call Mom" />
+      <input type="checkbox" name="Call Babe" />
+    </div>
+    <br>
+
+    <div>
+    <div>
+      <label for="gender"> Gender </label>
+    </div>
+
+    <div>
+        <label> Male </label>
+        <input type="radio" name="gender" id="gender" value="male" />
+     </div>
+     
+     <div>
+      <label> Female </label>
+      <input type="radio" name="gender" id="gender" value="female" />
+     </div>
+    </div>
+    <br>
+
+    <div>
+      <label for="food"> Favourite Food </label>
+      <select name="food" id="food">
+        <option value="Cake" label="Cake" />
+        <option value="Meatpie" label="Meatpie" />
+        <option value="Chicken" label="Chicken" />
+      </select>
+    </div>
+    <br>
+
+    <div>
+      <label for="msg"> Messages </label>
+      <textarea name="msg" id="msg"> What is the Message? </textarea>
+    </div>
+
+    <div>
+      <label for="colour"> Colour </label>
+      <input type="color" name="colour">
+    </div>
+    <br>
+
+    <div>
+      <label for="file"> File </label>
+      <input type="file" name="file">
+    </div>
+
+    <br>
+
+      <button> Submit </button>
+    
+  </form>
+</body>
+</html>
